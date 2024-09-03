@@ -130,7 +130,7 @@
   },
   {
     "name": "kodub",
-    "imageUrl": "/assets/img/kodub.jpg",
+    "imageUrl": "/assets/img/kodub.png",
     "onClick": "kod",
     "height": 130
   }
