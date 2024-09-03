@@ -17,6 +17,11 @@
       "imageUrl": "/assets/img/1v1.webp",
       "onClick": "onevone"
     },
+     {
+      "name": "poly",
+      "imageUrl": "/assets/img/poly.png",
+      "onClick": "poly"
+    },
     {
       "name": "Awesome Tanks 2",
       "imageUrl": "/assets/img/atanks2.webp",
