@@ -3,47 +3,103 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex">
-  <link rel="icon" id="icon" href="/assets/img/doge.jpg">
+  <link rel="icon" href="/assets/img/doge.jpg">
   <link rel="stylesheet" href="/assets/css/app.css?v=1.4">
   <link rel="stylesheet" href="/assets/css/menu.css?v=1.4">
-  <script rel="preload" src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js?v=1.4"></script>
-  <script src="/assets/js/functions.js?v=1.4"></script>
-  <script src="/assets/js/anym.js?v=1.4"></script>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js?v=1.4" async></script>
+  <script src="/assets/js/functions.js?v=1.4" defer></script>
+  <script src="/assets/js/anym.js?v=1.4" defer></script>
   <title>Ezic | V11</title>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-6YEQ7Q0XRC"></script>
-  <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-6YEQ7Q0XRC');</script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-6YEQ7Q0XRC');
+  </script>
 </head>
 <body>
-  <script src="/baremux/index.js?v=1.4"></script>
-  <script src="/wk/wk2.js?v=1.4"></script>
-  <script src="/wk/wk3.js?v=1.4"></script>
+  <script src="/baremux/index.js?v=1.4" defer></script>
+  <script src="/wk/wk2.js?v=1.4" defer></script>
+  <script src="/wk/wk3.js?v=1.4" defer></script>
+  
+  <div id="contextMenu" class="context-menu themesExcluded" style="--ripple-duration: 300ms;">
 <div id="contextMenu" class="context-menu themesExcluded" style="--ripple-duration: 300ms;"><div class="context-menu-item with-submenu themesExcluded" id="contextItem" anim="ripple" onclick="toggleSubmenu(event)"><i class="bi bi-file-spreadsheet"></i> Tab Cloak</div><div class="context-submenu themesExcluded" id="contextItem"><div class="context-menu-item themesExcluded" id="contextItem" anim="ripple" onclick="tabCloak()">Enable</div><div class="context-menu-item themesExcluded" anim="ripple" onclick="disableTabCloak()">Disable</div></div><div class="context-menu-item themesExcluded" id="contextItem" onclick="visitSite()"><i class="bi bi-clock-history"></i> Last Visited Site</div><div class="context-menu-item themesExcluded" id="contextItem" onclick="openWindow()"><i class="bi bi-box-arrow-up-right"></i> About:Blank Cloak</div><div class="context-menu-item themesExcluded" id="contextItem" onclick="openSettings()"><i class="bi bi-gear"></i> View all Settings</div></div>
 <nav id="mytopnav">
-  <button class="btn-main" anim="ripple" onclick="send('/settings.html')"><i class="bi bi-gear" style="font-size:30px;"></i>Settings</button>
-  <button class="btn-main" anim="ripple" onclick="send('/gms')"><i class="bi bi-joystick" style="font-size:30px;"></i>Games</button>
-  <button class="btn-main" anim="ripple" onclick="send('/apps')"><i class="bi bi-grid-fill" style="font-size:30px;"></i>Apps</button><br>
-  <a href="#" class="title" anim="ripple"><img src="/assets/img/doge.jpg" style="width:22px;height:22px;" id="logo"> Ezic Unblocker</a>    
-</nav>
-  <div style="text-align:center;color:white;margin-top: 80px;z-index:1;" class="themesExcluded">
-    <div class="themesExcluded">
+  </div>
+  
+  <nav id="mytopnav">
+    <button class="btn-main" anim="ripple" onclick="send('/settings.html')">
+      <i class="bi bi-gear" style="font-size:30px;"></i> Settings
+    </button>
+    <button class="btn-main" anim="ripple" onclick="send('/gms')">
+      <i class="bi bi-joystick" style="font-size:30px;"></i> Games
+    </button>
+    <button class="btn-main" anim="ripple" onclick="send('/apps')">
+      <i class="bi bi-grid-fill" style="font-size:30px;"></i> Apps
+    </button>
+    <br>
+    <a href="#" class="title" anim="ripple">
+      <img src="/assets/img/doge.jpg" style="width:22px;height:22px;" id="logo"> Ezic Unblocker
+    </a>    
+  </nav>
+  
+  <div style="text-align:center;color:white;margin-top:80px;z-index:1;" class="themesExcluded">
+    <div>
       <i class="bi bi-search search" id="search"></i>
       <form method="POST" id="uform" autocomplete="off" class="themesExcluded" style="z-index:1;">
-        <input type="text" name="url" class="browse-input themesExcluded" style="font-family:poppins;font-size:20px;z-index:1;" placeholder="Type URL or search query"><p class="splashText themesExcluded" id="placeholder"></p>
+        <input type="text" name="url" class="browse-input themesExcluded" style="font-family:poppins;font-size:20px;z-index:1;" placeholder="Type URL or search query">
+        <p class="splashText themesExcluded" id="placeholder"></p>
       </form>
     </div>
-    <div class="footer themesExcluded" style="text-align:right;">
+    
+    <div class="footer themesExcluded" style="text-align:right;"></div>
+    
+    <div class="bottom-right-container">
+      <a href="https://bcpscloud-my.sharepoint.com/:w:/r/personal/kmm322_bcps_org/Documents/Kaydenestan%20Internet%20Terminal.docx?d=wf0f4cb57253b4d6e870fdd5d6f78fbe2&csf=1&web=1&e=NBFkiR" class="button">kaydens other gamehub</a>
+      <a href="/info" class="button">Site Info</a>
+      <a href="https://docs.google.com/document/d/1TesuQ9CXum2Pq63dnS1am04rknqt-qv9Y7c6zmcac5o/edit?usp=sharing" class="button">updates</a>
     </div>
-      <div class="bottom-right-container">
-
-            <a href="https://bcpscloud-my.sharepoint.com/:w:/r/personal/kmm322_bcps_org/Documents/Kaydenestan%20Internet%20Terminal.docx?d=wf0f4cb57253b4d6e870fdd5d6f78fbe2&csf=1&web=1&e=NBFkiR" class="button">kaydens other gamehub</a>
-            <a href="/info" class="button">Site Info</a>
-            <a href="https://docs.google.com/document/d/1TesuQ9CXum2Pq63dnS1am04rknqt-qv9Y7c6zmcac5o/edit?usp=sharing" class="button">updates</a>
-    </div>
-  <script src="/assets/js/main.js?v=1.4"></script>
-  <script src="/assets/js/index.js?v=1.4"></script>
-  <script src="/assets/js/themes.js?v=1.4"></script>
-  <script src="/assets/js/particles.js?v=1.4"></script>
+  </div>
+  
+  <script src="/assets/js/main.js?v=1.4" defer></script>
+  <script src="/assets/js/index.js?v=1.4" defer></script>
+  <script src="/assets/js/themes.js?v=1.4" defer></script>
+  <script src="/assets/js/particles.js?v=1.4" defer></script>
   <script src="/assets/js/register.js?v=1.4" defer></script>
-</div>
+  
+  <style>
+    /* Ensure the body and html take up the full height of the viewport */
+    html, body {
+        height: 100%;
+        margin: 0;
+    }
+
+    /* Container styles */
+    .bottom-right-container {
+        position: fixed; /* Fixes the container in place */
+        bottom: 0;       /* Aligns it to the bottom of the viewport */
+        right: 0;        /* Aligns it to the right side of the viewport */
+        background: #f0f0f0; /* Optional: Add a background color */
+        padding: 10px;   /* Optional: Add padding around the links */
+        border-top-left-radius: 5px; /* Optional: Add rounded corners */
+        border: 1px solid #ddd; /* Optional: Add a border */
+    }
+
+    /* Button styles */
+    .button {
+        display: inline-block; /* Make sure buttons are displayed inline */
+        margin: 5px;           /* Add some spacing between buttons */
+        padding: 10px 20px;    /* Add padding inside the buttons */
+        background-color: #007bff; /* Button background color */
+        color: white;          /* Button text color */
+        text-decoration: none; /* Remove underline from links */
+        border-radius: 5px;    /* Optional: Add rounded corners to buttons */
+    }
+
+    .button:hover {
+        background-color: #0056b3; /* Change color on hover */
+    }
+  </style>
 </body>
 </html>
