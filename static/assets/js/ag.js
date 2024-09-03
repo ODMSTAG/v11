@@ -215,6 +215,9 @@ function rBowl() {
 function krunker() {
   openAg('https://krunker.io');
 }
+function poly() {
+  openAg('https://www.kodub.com/apps/polytrack');
+}
 
 function paperIo() {
   openAg('https://paper-io.com');
