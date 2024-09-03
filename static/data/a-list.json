@@ -115,5 +115,23 @@
     "imageUrl": "/assets/img/vscode.webp",
     "onClick": "vscode",
     "height": 130
+  },
+  {
+    "name": "Google voice",
+    "imageUrl": "/assets/img/googlev.png",
+    "onClick": "googlev",
+    "height": 130
+  },
+  {
+    "name": "Win 11",
+    "imageUrl": "/assets/img/win11.png",
+    "onClick": "win",
+    "height": 130
+  },
+  {
+    "name": "kodub",
+    "imageUrl": "/assets/img/kodub.jpg",
+    "onClick": "kod",
+    "height": 130
   }
 ]
