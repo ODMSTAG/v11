@@ -84,9 +84,21 @@ function symbolab() {
   openAg('https://www.symbolab.com');
 }
 
+function googlev() {
+  openAg('https://voice.google.com/about');
+}
+
+function win() {
+  openAg('https://screenprank.com/windows-11/');
+}
+
 /*games*/
 function onevone() {
   openAg('https://1v1.lol');
+}
+
+function kod() {
+  openAg('https://www.kodub.com/');
 }
 
 function basketBros() {
