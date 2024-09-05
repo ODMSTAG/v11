@@ -10,6 +10,11 @@
       "imageUrl": "/assets/img/roblox.webp",
       "onClick": "rbx"
     }
+      {
+      "name": "Xbox cloud gaming",
+      "imageUrl": "/assets/img/xbox.png",
+      "onClick": "xbox"
+    }
   ],
   "Shooter Games": [
     {
