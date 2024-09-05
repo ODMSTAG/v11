@@ -8,6 +8,11 @@ function gpt() {
   openAg('https://julius.ai/ai-chatbot');
 }
 
+function xbox() {
+  openAg('https://www.xbox.com/en-us/play');
+}
+
+
 function nf() {
   alert('This app is still in development.\nCheck discord.gg/unblocking for details.');
 }
