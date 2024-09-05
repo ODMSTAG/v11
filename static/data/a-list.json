@@ -5,6 +5,11 @@
     "onClick": "google"
   },
   {
+    "name": "Xbox cloud gaming",
+    "imageUrl": "/assets/img/xbox.png",
+    "onClick": "xbox"
+  },
+  {
     "name": "JuliusAI",
     "imageUrl": "/assets/img/gpt.webp",
     "onClick": "gpt"
