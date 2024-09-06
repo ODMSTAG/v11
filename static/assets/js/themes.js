@@ -29,9 +29,6 @@ function live() {
       case 'swamp':
         applyTheme('rgba(22, 46, 23, 0.705)', "linear-gradient(to bottom, rgb(33, 116, 47), rgb(0, 0, 0))");
         break;
-      case 'ocean':
-        applyTheme('rgba(84, 137, 161, 0.637)', "linear-gradient(to bottom, rgb(70, 173, 214), rgb(99, 84, 36))");
-        break;
       case 'starry':
         applyTheme('rgba(39, 81, 109, 0.521)', "linear-gradient(to right, rgb(14, 132, 211), rgb(113, 11, 209))");
         break;
@@ -51,9 +48,9 @@ function live() {
       e = e.touches ? e.touches[0] : e;
       const r = el.getBoundingClientRect(),
         d = Math.sqrt(Math.pow(r.width, 2) + Math.pow(r.height, 2)) * 2;
-      el.style.cssText = --s: 0; --o: 1;;
+      el.style.cssText = `--s: 0; --o: 1;`;
       el.offsetTop;
-      el.style.cssText = --t: 1; --o: 0; --d: ${d}; --x:${e.clientX - r.left}; --y:${e.clientY - r.top};
+      el.style.cssText = `--t: 1; --o: 0; --d: ${d}; --x:${e.clientX - r.left}; --y:${e.clientY - r.top};`
       if(el.classList.contains('90px')) {
         el.style.width = '90px';
       }
@@ -65,7 +62,7 @@ function live() {
       console.log('[❌] Custom Background');
     }
     else {
-      document.body.style.backgroundImage = url(${bgUrl});
+      document.body.style.backgroundImage = `url(${bgUrl})`;
       document.getElementById('particles-js').remove();
       console.log('[✔️] Custom Background');
     }
